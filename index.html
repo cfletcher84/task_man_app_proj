@@ -14,9 +14,9 @@
         <!-- Navbar -->
         
         <nav class="navbar navbar-expand-lg bg-secondary">
-            <div class="container-fluid ">
+            <div class="container-fluid">
                 <div class="col-3 logo">
-                    <img class="img-fluid" src="./images/bear.jpg" alt="boat in bottle">
+                    <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
                 </div>
                 <a class="navbar-brand link-light-info" href="#">Soy Candle NYC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,45 +25,35 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 link-light">
+                    <ul class="navbar-nav me-auto mb-lg-0 link-light">
                         <li class="nav-item">
                             <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light" href="#">About</a>
+                            <a class="nav-link link-light" href="#">Orders</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Products
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Sculptural Candles</a></li>
-                                <li><a class="dropdown-item" href="#">Jar Candles</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Candle Care</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#">Create an Order</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-info" type="submit">Search</button>
+                    <form class="d-flex" role="Login">
+                        <button class="btn btn-outline-info" type="submit">Login</button>
+                        <button class="btn btn-outline-info mx-2" type="submit">Register</button>
                     </form>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+        
+        <div id="carouselExampleAutoplaying" class="carousel slide mx-5 my-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/candles.jpg" class="d-block w-100" alt="...">
+                <img src="./static/images/colored_cones.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./images/colored cones.jpg" class="d-block w-100" alt="...">
+                <img src="./static/images/leaf.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./images/leaf.jpg" class="d-block w-100" alt="...">
+                <img src="./static/images/candles.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -75,6 +65,34 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+
+          <section class="row the-goods p-5 text-center">
+            <h2 class="mb-5">Our Candles!</h2>
+            <h6 class="mb-5">Transform your home into a sanctuary of tranquility with our handcrafted candles. Crafted with premium ingredients and infused with captivating scents, each flicker of our candles enhances ambiance and invites relaxation. Elevate your senses and indulge in moments of serenity with our irresistible candle collection.</h6>
+                <div class="col shirt-4-sale d-flex flex-column justify-content-between ">
+                    <div>
+                        <img class="img-fluid" src="./static/images/IMG_8431.png" alt="candle image">
+                    </div>
+                    <h6>Vanilla Scented</h6>
+                    <p>Try out this wonderfull smelling candle.</p>
+                </div>
+                <div class="col shirt-4-sale d-flex flex-column justify-content-between mx-3">
+                    <div>
+                        <img class="img-fluid" src="./static/images/IMG_8432.png" alt="candle image 3">
+                    </div>
+                    <h6>Down by the sea</h6>
+                    <p>This candle will make you feel like you're at the beach!</p>
+                </div>
+                <div class="col shirt-4-sale d-flex flex-column justify-content-between">
+                    <div>
+                        <img class="img-fluid" src="./static/images/IMG_8433.png" alt="candle image 2">
+                    </div>
+                    <h6 class="mb-3 mt-4">Sculpture Candles</h6>
+                    <p class="mb-5">Bring David home with you with our sculpture candles!</p>   
+                </div>
+        </section>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
