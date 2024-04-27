@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>View Orders</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+                <div class="col-3 logo">
+                    <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
+                </div>
+                <a class="navbar-brand link-light-info" href="#">Soy Candle NYC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0 link-light">
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#">Create an Order</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="Login">
+                        <button class="btn btn-outline-info" type="submit">Login</button>
+                        <button class="btn btn-outline-info mx-2" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <nav class="d-flex justify-content-center m-3">
+            <form class="form-inline">
+                <input class="" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </nav>
+
+          
+        <!-- Accordian -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Ongoing Orders
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="d-flex">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/bear.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/colored_cones.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/bear.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/CandleBundle.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/IMG_8433.png" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Completed Orders
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="d-flex">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/IMG_8433.png" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/colored_cones.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/CandleBundle.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/bear.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/CandleBundle.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/CandleBundle.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./static/images/colored_cones.jpg" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">user@example.com</h5>
+                                <p class="card-text">Quantity: 3 <br>Due Date: 12/15/2025</p>
+                                <a href="#" class="btn btn-primary">View Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
