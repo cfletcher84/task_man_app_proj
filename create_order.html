@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./static/main.css">
+<title>Soy Candle NYC</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <div class="col-3 logo">
+                <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
+            </div>
+            <a class="navbar-brand link-light-info" href="#">Soy Candle NYC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0 link-light">
+                    <li class="nav-item">
+                        <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Create an Order</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="Login">
+                    <button class="btn btn-outline-info" type="submit">Login</button>
+                    <button class="btn btn-outline-info mx-2" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div  class="container my-4 p-3 border rounded shadow" style="background-color: #fcedef;">
+
+        <h1>Create an Order</h1>
+        <p>Please enter which candles you would like to add to your cart</p>
+        <form>
+
+        <div class="form-row">
+            <div class="form-group col-12 col-md-6 pl-0">
+
+                <label for="candledropdown">Select a Candle:</label>
+                <select class="form-control" id="candledropdown">
+             
+                    <option>Select Candle</option>
+                    <option>Vanilla Candle</option>
+                    <option>Sculpture Candle</option>
+                    <option> Seashell Candle</option>
+
+                </select>
+            </div>
+        
+            <div class="form-group col-12 col-md-6 pr-0">
+                <label for="quantityInput">Quantity:</label>
+                <input type="number" class="form-control" id="quantityInput" placeholder="Enter quantity" min="1">
+            </div>
+
+        </div>
+
+        <div class="form-group col-12 col-md-6 pr-0">
+            <label for="shippingAddress">Shipping Address:</label>
+            <input class="form-control" id="shippingAddress" placeholder="Enter shipping address"></input>
+        </div>
+
+        <div class="form-group col-12 col-md-6 pl-0">
+            <label for="customerNotes">Customer Notes:</label>
+            <textarea class="form-control" id="customerNotes" rows="4" placeholder="Enter any additional notes or requests"></textarea>  
+        </div>
+        <div class="candles">
+            <div class="my-4 mx-4 border rounded">
+                <img src="./static/images/sm colored cones.jpg" class="img-fluid" alt="3 colorful candles">
+            </div>
+        </div>
+            <button type="submit" class="btn btn-primary mt-2">Add to cart</button>
+        </form>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
