@@ -11,37 +11,38 @@
 <title>Soy Candle NYC</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-secondary">
-        <div class="container-fluid">
-            <div class="col-3 logo">
-                <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
+           <!-- Navbar -->
+           <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+                <div class="col-3 logo">
+                    <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
+                </div>
+                <a class="navbar-brand link-light-info" href="./index.html">Soy Candle NYC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0 link-light">
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="./view_orders.html">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="./create_order.html">Create an Order</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="Login">
+                        <a class="btn btn-outline-info" href="./login.html" role="button">Login</a> 
+                        <a class="btn btn-outline-info mx-2" href="account.html" role="button">Register</a>
+                    </form>
+                </div>
             </div>
-            <a class="navbar-brand link-light-info" href="#">Soy Candle NYC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-lg-0 link-light">
-                    <li class="nav-item">
-                        <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#">Orders</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#">Create an Order</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="Login">
-                    <button class="btn btn-outline-info" type="submit">Login</button>
-                    <button class="btn btn-outline-info mx-2" type="submit">Register</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
+        
     <div  class="container my-4 p-3 border rounded shadow" style="background-color: #fcedef;">
 
         <h1>Create an Order</h1>
