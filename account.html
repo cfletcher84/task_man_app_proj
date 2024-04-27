@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <div class="col-3 logo">
+                <img class="img" style="height: 50px" src="./static/images/bear.jpg" alt="Bear">
+            </div>
+            <a class="navbar-brand link-light-info" href="#">Soy Candle NYC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0 link-light">
+                    <li class="nav-item">
+                        <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Create an Order</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="Login">
+                    <button class="btn btn-outline-info" type="submit">Login</button>
+                    <button class="btn btn-outline-info mx-2" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <body>
+        <main class="container my-4 p-3 border rounded shadow text-center">
+            <h3>Create Your Account.</h3>
+            <form class="row needs-validation g-2 p-2">
+                <div class="form-floating col-12 col-md-6 pl-0">
+                    <input type="text" class="form-control" id="firstname" name="firstname"
+                        placeholder="name@example.com" required>
+                    <label for="firstname">First Name</label>
+                    <div class="valid-feedback">Thank you!</div>
+                    <div class="invalid-feedback">We need your name.</div>
+                </div>
+                <div class="form-floating col-12 col-md-6 pr-0">
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Password" required>
+                    <label for="lastname">Last Name</label>
+                    <div class="valid-feedback">Thank you!</div>
+                    <div class="invalid-feedback">We need your name!</div>
+                </div>
+                <div class="form-floating col-12 pr-0">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="PassWord" required>
+                    <label for="email">Email</label>
+                    <div class="valid-feedback">Thank you!</div>
+                    <div class="invalid-feedback">We need your email!</div>
+                </div>
+                <div class="form-floating col-12 pr-0">
+                    <input type="password" class="form-control" id="password" name="password"
+                        pattern="[A-Z]{1,}[a-z]{1,}[\W]{1,}" placeholder="Password" required>
+                    <label for="password">Password</label>
+                    <div class="valid-feedback">Thank you!</div>
+                    <div class="invalid-feedback">Create a password please!</div>
+                </div>
+                <div class="form-floating col-12 pr-0">
+                    <input type="password" class="form-control" id="password" name="password"
+                        pattern="[A-Z]{1,}[a-z]{1,}[\W]{1,}" placeholder="Password" required>
+                    <label for="password">Confirm your Password</label>
+                    <div class="valid-feedback">Thank you!</div>
+                    <div class="invalid-feedback">Create a password please!</div>
+                </div>
+
+                <form class="d-flex" role="Login">
+                    <button class="btn btn-outline-info mx-2" type="submit">Register</button>
+                </form>
+
+            </form>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
